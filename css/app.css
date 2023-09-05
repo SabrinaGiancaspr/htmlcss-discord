@@ -22,19 +22,16 @@ header{
 }
 
 .nav-container{   
-    min-height: 70px;
     padding: 30px;
     max-width: 900px;
     margin: 0 auto;
 }
 
 .logo{
-    min-height: 10px;
     flex-basis: calc(100% / 4);
 }
 
 .login{
-    min-height: 10px;
     flex-basis: calc(100% / 4);
 }
 
@@ -48,29 +45,17 @@ header{
 }
 
 .link{
-    min-height: 10px;
     flex-basis: calc(100% / 2);
-    /* color: white; */
 }
-
-
 
 /* seconda section header  */
 
-.
-
-.justify-center{
-    justify-content: center;
-}
-
 .container-header{
-    min-height: 300px;
     padding: 90px;
     margin: 0 auto;
 }
 
 .title{
-    min-height: 250px;
     flex-basis: calc(100% / 2);
     font-size: 40px;
     margin: 0 auto;
