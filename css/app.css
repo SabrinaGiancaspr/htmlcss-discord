@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-/* header row nav*/
+/* header nav logo login  */
 
 header{
     color: white;
@@ -114,7 +114,7 @@ header{
     min-height: 300px;
     padding: 30px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 .screen-study-group{
@@ -127,13 +127,12 @@ header{
 
 .col-5{
     flex-basis: calc((100% / 12) * 5);
-    min-height: 250px;
 }
 
-
-
-.light-pink{
-    background-color: #FFC0CB;
+.title-main{
+    font-size: 40px;
+    max-width: 270px;
+    margin-top: 25px;
 }
 
 .bg-grey{
