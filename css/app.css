@@ -8,7 +8,8 @@
 
 .page-header{
     width: 100%;
-    background-color:#ADD8E6 ;
+    background-image: url(../img/jumbo.png);
+    min-height: 1100px;
 }
 
 .row{
@@ -39,7 +40,7 @@
     line-height: 30px;
     padding: 0 12px;
     font-size: 13px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 .link{
     min-height: 10px;
@@ -51,10 +52,6 @@
 
 /* seconda section header  */
 
-.page-section{
-    width: 100%;
-    background-color: #00008B;
-}
 
 .pink{
     background-color:#EE82EE;
