@@ -10,6 +10,7 @@
     width: 100%;
     background-image: url(../img/jumbo.png);
     min-height: 1100px;
+    
 }
 
 .row{
@@ -42,6 +43,7 @@
     font-size: 13px;
     border-radius: 15px;
 }
+
 .link{
     min-height: 10px;
     flex-basis: calc(100% / 2);
@@ -52,11 +54,7 @@
 
 /* seconda section header  */
 
-
-.pink{
-    background-color:#EE82EE;
-    border: 1px solid black;
-}
+.
 
 .justify-center{
     justify-content: center;
@@ -64,14 +62,23 @@
 
 .container-header{
     min-height: 300px;
-    padding: 30px;
-    max-width: 900px;
+    padding: 90px;
     margin: 0 auto;
 }
 
-.col-6-special{
+.title{
     min-height: 250px;
     flex-basis: calc(100% / 2);
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    line-height: 150px;
+}
+
+.description{
+    font-size: 25px;
+    line-height: 40px;
 }
 
 /* main section con tre row */
