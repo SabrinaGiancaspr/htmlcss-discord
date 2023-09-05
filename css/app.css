@@ -155,7 +155,12 @@ header{
 
 .page-footer{
    width: 100%;
-   background-color:#D3D3D3;
+   background-color:#F6F6F6;
+}
+
+.wave{
+    width: 100%;
+    filter: opacity(0.03);
 }
 
 .container-footer{
@@ -183,13 +188,14 @@ header{
     line-height: 30px;
 }
 
+
+
 .blue{
     background-color:#8EA1E1;
     color: white;
     margin-left: 300px;
     margin-top: 15px;
 }
-
 /* footer black bg  */
 
 .footer-black-bg{
