@@ -13,7 +13,7 @@ header{
 .page-header{
     width: 100%;
     background-image: url(../img/jumbo.png);
-    min-height: 1100px;
+    background-size: cover;
 }
 
 .row{
@@ -23,16 +23,17 @@ header{
 
 .nav-container{   
     padding: 30px;
-    max-width: 900px;
     margin: 0 auto;
 }
 
 .logo{
-    flex-basis: calc(100% / 4);
+    flex-basis: calc((100% / 12)* 2);
+    margin-left: 150px;
 }
 
 .login{
-    flex-basis: calc(100% / 4);
+    flex-basis: calc((100% / 12)* 2);
+    /* margin-left: 60px; */
 }
 
 .login-button{
@@ -45,7 +46,12 @@ header{
 }
 
 .link{
-    flex-basis: calc(100% / 2);
+    flex-basis: calc((100% / 12)* 6);
+    margin-left: 55px;
+    vertical-align: sub;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 
 /* seconda section header  */
@@ -73,21 +79,25 @@ header{
     background-color: white;
     border: none;
     line-height: 50px;
-    padding: 0 20px;
+    padding: 0 30px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 23px;
-    margin-right: 100px;
+    margin-right: 40px;
 }
 
-
+#row-entity{
+    font-size: 25px;
+    margin-right: 10px;
+    font-weight: bold;
+}
 
 .browser-button{
     background-color: black;
     color: white;
     border: none;
     line-height: 50px;
-    padding: 0 20px;
+    padding: 0 30px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 23px;
