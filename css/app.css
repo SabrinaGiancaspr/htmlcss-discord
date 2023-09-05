@@ -69,10 +69,34 @@ header{
     line-height: 40px;
 }
 
+.download-button{
+    background-color: white;
+    border: none;
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 23px;
+    margin-right: 100px;
+}
+
+
+
+.browser-button{
+    background-color: black;
+    color: white;
+    border: none;
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 23px;
+}
+
 /* main section con tre row */
 
 .main-page{
-    width: 100%;
+    /* width: 100%; */
 }
 
 .container{
