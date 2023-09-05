@@ -193,6 +193,13 @@ header{
     margin-top: 20px
 }
 
+.language{
+    display: inline-block;
+    color: white;
+    vertical-align: super;
+}
+
+
 .blue-title-footer{
     font-size: 35px;
     color:#7289DA ;
