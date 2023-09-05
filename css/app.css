@@ -188,15 +188,23 @@ header{
     line-height: 30px;
 }
 
+.flag{
+    width:30px;
+    margin-top: 20px
+}
 
+.blue-title-footer{
+    font-size: 35px;
+    color:#7289DA ;
+}
 
-.blue{
+.blue-button{
     background-color:#8EA1E1;
     color: white;
     margin-left: 300px;
     margin-top: 15px;
 }
-/* footer black bg  */
+
 
 .footer-black-bg{
     width: 100%;
@@ -204,11 +212,8 @@ header{
     border: 1px solid white;
 }
 
-.col-4{
-    flex-basis: calc((100% / 12) * 4);
-    background-color: #EE82EE;
-    border: 1px solid black;
-    min-height: 300px;
+.col-3{
+    flex-basis: calc((100% / 12) * 3);
 }
 
 .col-2{
