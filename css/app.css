@@ -188,15 +188,18 @@ header{
     line-height: 30px;
 }
 
-.flag{
-    width:30px;
-    margin-top: 20px
-}
 
-.language{
-    display: inline-block;
+.lang-select {
+	padding: 3px 0 3px 45px;
+	display: block;
+	background-image: url('../img/ita.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-bottom: 14px;
+    background-color: #23272A;
     color: white;
-    vertical-align: super;
+    border: none;
+   
 }
 
 
