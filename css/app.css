@@ -188,7 +188,6 @@ header{
     line-height: 30px;
 }
 
-
 .lang-select {
 	padding: 3px 0 3px 45px;
 	display: block;
@@ -199,13 +198,19 @@ header{
     background-color: #23272A;
     color: white;
     border: none;
-   
+    
 }
 
-
+.fa-brands{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+}
 .blue-title-footer{
     font-size: 35px;
     color:#7289DA ;
+    padding-bottom: 20px;
 }
 
 .blue-button{
